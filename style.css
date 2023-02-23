@@ -1,0 +1,68 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .align{
+    text-align: center;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid;
+  }
+  .container{
+
+    display: flex;
+   width: 80%;
+   height: 350px;
+   border: 1px solid;
+   padding: 10px;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   margin-left: 100px;
+margin-top: 30px;
+
+  }
+  .list{
+    margin-left:30px;
+    text-align:justify ;
+    margin-top: 50px;
+
+  }
+  .content{
+    display: flex;
+   justify-content: space-around;
+   text-align: right;
+   
+  }
+
+  label, input {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  label {
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  .formgroup {
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+
+  .card{
+    width: 80%;
+    height: 500px;
+    border:1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+  }
